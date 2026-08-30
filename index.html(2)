@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Page Marcus Hagans-HTML Basics</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+<h1>My Portfolio</h1>
+<h2>Projects</h2>
+ <h3>CSS Grid Gallery</h3>
+ <h3>Mobile Nav Demo</h3>
+<h2>About</h2>
+<h2>Contact</h2>
+
+<ul>
+  <li>Answer Here</li>
+  <li>Answer Here</li>
+  <li>Answer Here</li>
+</ul>
+
+<ol>
+  <li>Answer Here</li>
+  <li>Answer Here</li>
+  <li>Answer Here</li>
+</ol>
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dd>Cascading Style Sheets</dd>
+</dl>
+
+<!-- External link (opens in new tab) -->
+<a href="https://developer.mozilla.org" target="_blank" rel="noopener">
+  MDN WEB Docs
+</a>
+
+<!-- Internal section link -->
+<a href="#contact">Jump to contact</a>
+
+<!-- Email link -->
+<a href="mailto:mdh2963@email.vccs.edu">Email me</a>
+
+<!-- Phone link -->
+<a href="tel:14345152242">Call (434) 515-2242</a> 
+
+<img src="sunrise.jpg"
+  alt="A pink and gold sunrise over the Blue Ridge mountains.">
+
+<!-- Decorative images get an EMPTY alt so screen readers skip them -->
+<img src="divider.svg" alt="">
+
+<!-- Image with caption -->
+<figure>
+ <img src="grad.jpg" alt="My niece on graduation day, smiling in cap and gown.">
+ <figcaption>Marcus, August 2026</figcaption>
+</figure>
+
+ <header>
+  <h1>My site</h1>
+  <nav>
+   <a href="#home">Home</a>
+   <a href="#about">About</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+   <h2>Section Heading</h2>
+    <p>...</p>
+  </section>
+
+  <article>
+   <h2>Latest blog post</h2>
+   <p>...</p>
+  </article>
+
+<aside>
+ <h3> Related links</h3>
+</aside>
+
+<footer>
+ <p>&copy; 2026 My site</p>
+</footer>
+
+<form action="/submit" method="POST">
+
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="4"></textarea>
+
+  <button type="submit">Send</button>
+ </form>
+
+<table>
+  <caption>Answer here</caption>
+  <thead>
+   <tr>
+    <th scope="col">Student</th>
+    <th scope="col">Projects</th>
+    <th scope="col">Grade</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+     <th scope="row">Marcus Hagans</th>
+     <td>Portfolio</td>
+     <td>100</td>
+   </tr>
+  </tbody>
+</table>
+
+
+
+</main>
+
+</body>
+</html>
